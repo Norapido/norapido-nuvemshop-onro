@@ -1,0 +1,23 @@
+{
+  "name": "nuvemshop-onro-middleware",
+  "version": "1.0.0",
+  "description": "Middleware Express para integrar webhooks da Nuvemshop com criação de ordens na Onro",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "simulate:webhook": "node scripts/simulate-webhook.js"
+  },
+  "keywords": [
+    "express",
+    "nuvemshop",
+    "onro",
+    "webhook"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
